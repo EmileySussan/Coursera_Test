@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Box Model</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			margin: 0; /* WORKS HERE */
+		}	
+		body{
+			                              /*margin: 0;     NOT WORKING HERE */
+			padding: 0;
+		}
+
+		.box{                             /*width, padding, margin should code in parent class*/        
+			background-color: yellowgreen;
+			padding: 5px 3px 5px 3px;
+			border: 2px solid turquoise;
+			margin: 30px 0px 30px 0px;
+			width: 400px;
+
+			
+
+
+
+		}
+
+		.container{                        /*overflow can code either in parent or child*/
+			background-color: lightyellow;
+			height: 50px;
+			overflow: hidden
+		}
+
+	</style>
+</head>
+
+<body>
+	<h1>The Box Model</h1>
+	<div class="box">
+		<div class="container">
+			box model has the padding then border then margin around the content and completes it as a box.
+			In literary theory, a text is any object that can be "read", whether this object is a work of literature, a street sign, an arrangement of buildings on a city block, or styles of clothing. It is a coherent set of signs that transmits some kind of informative message.
+		</div>
+	</div>
+
+</body>
+</html>

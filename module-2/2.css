@@ -75,11 +75,11 @@ span {
     float: left;
   }
 }
-/*mobile devices */
+/*mobile devices 
 @media (max-width: 767px)  {
   
   .col-sx-12 {
   	float: left;
     width: 100%;
   }
-}
+}*/

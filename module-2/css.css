@@ -1,0 +1,82 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+P{
+	/*width: 90%;*/
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+
+	
+}
+
+#sec{
+	position: relative;
+	border: 3px solid black;
+	padding: 3px;
+	background-color: grey;
+	margin: 5px;
+
+
+}
+
+span{
+	position: absolute;
+	float: right; top: 0; right: 0; margin: 0; 
+	 /*left: 341px;    <!-- accurate only in one device size-->
+	 bottom: 119px;*/
+     border: 1px solid black;
+	font-weight: bold;
+	text-align: center;
+	width: 150px;
+
+}
+
+#p1{
+	background-color: orange;
+
+}
+
+#p2{
+	background-color: lightgreen;
+}
+
+#p3{
+	background-color: pink;
+}
+
+.box{
+	width: 100%;
+	
+}
+
+@media (min-width: 992px){
+	.col-lg-4{
+		width: 33.33%;
+		float: left;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.col-md-6{
+		width: 50%;
+		float: left;
+	}
+	.col-md-12{
+		width: 100%;
+		float: left;
+	}
+}
+
+/* its ookay to write or not write
+@media (max-width: 767px){
+	.col-sx-12{
+		width: 100%;
+		float: left;
+	}
+} */

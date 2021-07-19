@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Floats</title>
+	<style>
+		div{
+			background-color: #00FFFF;
+			margin-botton: 30px;
+		}
+
+		p{
+			width: 100px;
+			height: 100px;
+			margin: 10px;
+		}
+			
+		.p1{
+			background:#b366ff;
+			height: 150px;
+			float: left;
+			
+
+		}
+		.p2{
+			background:#b3ffff;
+			height: 200px;
+			float: right;
+			
+			
+		}
+		.p3{
+			background:#993333;
+			clear: both;           <!-- p1 height=250 & p2 = 200 then clear=right get to see difference -->
+
+		}
+		.p4{
+			background:#99ffcc;
+			
+		}
+	</style>
+</head>
+
+<body>
+	<h1>float styles</h1>
+	<div>                         <!--p cannot be  aparet to div -->
+		<p class='p1'>1</p>  <!--the value of class/id shouldnt be a single number("1") -->
+		<p class='p2'>2</p>
+		<p class='p3'>3</p>
+		<p class='p4'>4</p>
+	</div>
+
+</body>
+</html>
